@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    enabled: false
+  profiles:
+    active: dev
+
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
